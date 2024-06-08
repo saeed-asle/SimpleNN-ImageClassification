@@ -8,9 +8,9 @@ import pandas as pd
 from keras.utils import to_categorical
 #Data link : https://www.kaggle.com/puneet6060/intel-image-classification
 
-trainpath = '/Users/Saeed/Desktop/deap learing and mchine learning/all_about_machine_and_deep_learning/seg_train/'
-testpath = '/Users/Saeed/Desktop/deap learing and mchine learning/all_about_machine_and_deep_learning/seg_test/'
-predpath = '/Users/Saeed/Desktop/deap learing and mchine learning/all_about_machine_and_deep_learning/seg_pred/'
+trainpath = 'yourpath/seg_train/'
+testpath = 'yourpath/seg_test/'
+predpath = 'yourpath/seg_pred/'
 
 code = {'buildings': 0, 'forest': 1, 'glacier': 2, 'mountain': 3, 'sea': 4, 'street': 5}
 
